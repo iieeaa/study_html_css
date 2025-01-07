@@ -1,25 +1,3 @@
-.box {
-  border: 50px solid red;
-  width: 200px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 20px;
-  margin-bottom: 20px;
-  display: none;
-}
-
-.box.green{
-  border-color: green;
-  /* visibility: hidden; */
-  display: none;
-}
-
-.box.blue {
-  border-color: blue;
-  background-color: #3498db; /* Peter River */
-  color: white; /* 텍스트 색상 */
-}
-
 h1 {
   color:#9b59b6;
 }

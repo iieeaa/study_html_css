@@ -1,0 +1,96 @@
+body{
+  margin: 0px;
+  color: white;
+  font-family: spotify-circular, Arial, Helvetica, sans-serif;
+}
+
+nav{
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item{
+  padding: 28px 17px;
+  font-weight: 700;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+main{
+  height: 968px;
+  background-color: rgb(41, 65, 171);
+  /* background-image: url(https://www-growth.scdn.co/static/home/bursts.svg); */
+  background-size: 175%;
+  background-position: 46% 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headline{
+  font-size: 146px;
+  color: #1ed760;
+  font-weight: 900;
+  line-height: 166px;
+  position: relative;
+  left: 225px;
+  padding-bottom: 40px;
+}
+
+.headline-first{
+  position: relative;
+  left: -2.5em;
+}
+
+.sub-headline{
+  color: #1ed760;
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.button-area{
+  text-align: center;
+}
+
+.button-style{
+  padding: 14px 32px;
+  background-color: #1ed760;
+  border-radius: 500px;
+  font-size: inherit;
+  color: #2941ab;
+  font-weight: 700;
+  border: none;
+}
+
+
+/*  
+ *여기부터는 debugging 용 스타일
+ *
+ */
+div{
+  border: 1px solid green;
+}
+
+/* body{
+  border: 2px solid red;
+} */
+
+nav{
+  border: 2px solid red;
+}
+
+main{
+  border: 2px solid red;
+}
+
+footer{
+  border: 2px solid red;
+}

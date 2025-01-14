@@ -1,47 +1,82 @@
- footer{
+nav {
+  padding: 2rem;
+  position:fixed;
+}
+.first-img {
+  width: 100vw;
+}
+.btn-outline-success {
+  color: chocolate;
+  border-color: chocolate;
+}
+.btn-outline-success:hover {
+  background-color: chocolate;
+  color: white;
+  border-color: chocolate;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+footer {
   background: #19110b;
   font-size: 14px;
 }
-
-img, svg{
-  vertical-align: middle;
-}
-
-.first-line{
+.first-line {
   color: white;
   border-bottom: 1px solid #392d23;
 }
-
 .second-line a {
   color: white;
   text-decoration: none;
 }
-
-.row{
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(var(--bs-gutter-y)* -1);
-  margin-right: calc(var(--bs-gutter-x)* -.5);
-  margin-left: calc(var(--bs-gutter-x)* -.5)
-}
-
-.row>* {
-  flex-shrink: 0;
-  width: 100%;
-  max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x)* .5);
-  padding-left: calc(var(--bs-gutter-x)* .5);
-  margin-top: var(--bs-gutter-y);
-}
-
-.flag{
-  display: none;
+.flag {
   color: white;
 }
+.third-line {
+  border-top: 1px solid #392d23;
+  color: white;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 300;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  display: none;
+}
+.upButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: chocolate;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: block;
+}
+@media screen and (max-width: 48rem) {
+  .first-line {
+    text-align: center;
+  }
 
-.col{
-  flex: 1 0 0%;
+  .second-line {
+    padding: 0 2rem;
+  }
+
+  .third-line {
+    display: block;
+  }
+
+  .flag {
+    display: none;
+  }
+}
+.col {
   padding-bottom: 1rem;
+}
+.flag-img {
+  margin: 0 0.5rem;
 }

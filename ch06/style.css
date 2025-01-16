@@ -151,19 +151,17 @@ footer{
   color: #919496;
 }
 
-/*  
- *여기부터는 debugging 용 스타일
- *
- */
-div{
+/* Style for check-up */
+
+/* div{
   border: 1px solid green;
-}
+} */
 
 /* body{
   border: 2px solid red;
 } */
 
-nav{
+/* nav{
   border: 2px solid red;
 }
 
@@ -173,4 +171,4 @@ main{
 
 footer{
   border: 2px solid red;
-}
+} */
